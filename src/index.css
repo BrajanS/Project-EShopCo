@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#homeID {
+    overflow-x: scroll; /*When an element goes off-screen do ...*/
+}
+
+#searchHover:hover {
+    cursor: pointer;
+}
+
+#subNews {
+    line-height: 45px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#emailInput:focus {
+    outline: none;
+}
