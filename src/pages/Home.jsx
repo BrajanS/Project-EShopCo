@@ -16,6 +16,14 @@ import FacebookLogo from '../imgs/socialMedia/facebook.png'
 import InstagramLogo from '../imgs/socialMedia/instagram.png'
 import GithubLogo from '../imgs/socialMedia/logo-github.png'
 import TwitterLogo from '../imgs/socialMedia/logo-twitter.png'
+
+import Calvin from '../imgs/partenaires/calvin.png'
+import Gucci from '../imgs/partenaires/gucci-logo-1.png'
+import Prada from '../imgs/partenaires/prada-logo-1.png'
+import Versace from '../imgs/partenaires/versace.png'
+import Zara from '../imgs/partenaires/zara-logo-1.png'
+
+
 // Fins Logos //
 
 const options = [
@@ -63,7 +71,35 @@ export function Home() {
                 </div>
             </nav>
         </header>
-        <main></main>
+        <main>
+          <div>
+            <div className="bg-2-people bg-no-repeat bg-cover">
+              <h2>Test</h2>
+              
+            </div>
+            <div className='bg-[#000000] m-auto'>
+              <div className='flex mx-[100px] py-[20px] justify-between'>
+                <img alt="" src={Versace} />
+                <img alt="" src={Zara} />
+                <img alt="" src={Gucci} />
+                <img alt="" src={Prada} />
+                <img alt="" src={Calvin} />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+        </main>
         <footer className='mx-[100px]'>
           <div className='mb-[50px] bg-black flex items-center justify-between px-[64px] py-[34px] rounded-[15px]'>
             <h3 id='subNews' className='text-white'>STAY UPTO DATE ABOUT <br/> OUR LATEST OFFERS</h3>
