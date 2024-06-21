@@ -22,7 +22,7 @@ import Gucci from '../imgs/partenaires/gucci-logo-1.png'
 import Prada from '../imgs/partenaires/prada-logo-1.png'
 import Versace from '../imgs/partenaires/versace.png'
 import Zara from '../imgs/partenaires/zara-logo-1.png'
-
+import Sparkle from '../imgs/Sparkle.png'
 
 // Fins Logos //
 
@@ -73,9 +73,30 @@ export function Home() {
         </header>
         <main>
           <div>
-            <div className="bg-2-people bg-no-repeat bg-cover">
-              <h2>Test</h2>
-              
+            <div className="flex bg-2-people bg-no-repeat bg-cover">
+              <div className='ml-[100px]'>
+                <h2 className='text-[64px] font-[700]'>FIND CLOTHES<br/> THAT MATCHES<br/> YOUR STYLE</h2>
+                <p>Browse through our diverse range of meticulously crafted garments, designed<br/> to bring out your individuality and cater to your sense of style.</p>
+                <button className='flex justify-center items-center bg-black px-[54px] py-[16px] text-white rounded-[30px] w-[210px] h-[52px]'>Shop Now</button>
+                <div className='flex gap-[30px]'>
+                  <div>
+                    <h2 className='text-[40px]'>200+</h2>
+                    <p>International Brands</p>
+                  </div>
+                  <div>
+                    <h2 className='text-[40px]'>2,000+</h2>
+                    <p>High-Quality Products</p>
+                  </div>
+                  <div>
+                    <h2 className='text-[40px]'>30,000+</h2>
+                    <p>Happy Customers</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img className='relative top-[220px] right-[255px] h-[56px] w-[56px]' src={Sparkle} alt="tiny sparkle" />
+                <img className='relative' src={Sparkle} alt="normal sparkle" />
+              </div>
             </div>
             <div className='bg-[#000000] m-auto'>
               <div className='flex mx-[100px] py-[20px] justify-between'>
